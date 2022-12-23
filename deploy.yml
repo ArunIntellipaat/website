@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginxdeployment
+  name: mynginxdeployment
   labels:
     app: nginx
 spec:
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: arunyuvin/intellipaatcapstoneproject2
+        image: arunyuvin/intellipaatproject2
         ports:
         - containerPort: 80
